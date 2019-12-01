@@ -5,8 +5,9 @@ Classify plant leaf images as **healthy** or **diseased** using hand-crafted ima
 Each image is reduced to four numbers using OpenCV and scikit-image. A linear SVM trained on those numbers separates healthy from diseased leaves with **over 90% accuracy** on a held-out test split.
 
 <p align="center">
-  <img src="docs/images/feature_scatter.png" alt="Scatter plot of feature 1 vs feature 4 for healthy and diseased leaves" width="420">
-  <img src="docs/images/roc_curve.png" alt="ROC curve of the linear SVM on the test split" width="420">
+  <img src="docs/images/Diseased_and_healthy_leaves.png" alt="Side-by-side leaves on a gray background: the left, labeled Healthy leaf, is green and intact; the right, labeled Diseased leaf, has brown and yellow patches among green areas." width="420" loading="lazy">
+
+  <img src="docs/images/feature_scatter.png" alt="Scatter plot of feature 1 vs feature 4 for healthy and diseased leaves" width="420" loading="lazy"> <img src="docs/images/roc_curve.png" alt="ROC curve of the linear SVM on the test split" width="420" loading="lazy">
 </p>
 
 ---
