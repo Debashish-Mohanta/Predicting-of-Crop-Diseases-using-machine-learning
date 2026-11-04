@@ -1,0 +1,17 @@
+# Extracted dataset (the zip is committed instead)
+training/
+test/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
